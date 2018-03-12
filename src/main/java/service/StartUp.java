@@ -33,7 +33,7 @@ public class StartUp {
         account2.setUsername("Joost");
         account2.setEmail("Joostenbrood@hotmail.com");
         account2.setPassword("Joost12");
-        account2.setRole(Role.Admin);
+        account2.setRole(Role.Administrator);
         account2.setProfile(new Profile());
         accountService.create(account2);
 
@@ -44,7 +44,6 @@ public class StartUp {
         account3.setRole(Role.User);
         account3.setProfile(new Profile());
         accountService.create(account3);
-
     }
 
 }

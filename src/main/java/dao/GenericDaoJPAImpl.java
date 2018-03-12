@@ -8,7 +8,7 @@ import java.util.List;
 
 public abstract  class GenericDaoJPAImpl<T> implements GenericDao<T>{
 
-    @PersistenceContext
+    @PersistenceContext(name = "kwetterPU")
     protected EntityManager entityManager;
 
     private Class<T> type;
@@ -40,11 +40,8 @@ public abstract  class GenericDaoJPAImpl<T> implements GenericDao<T>{
         return (T) this.entityManager.find(type, id);
     }
 
-    public List<T> findAll() {
-        return entityManager.createQuery("SELECT t FROM " + type.getSimpleName() + " t", type).getResultList();
-    }
+    public List<T> findAll() { return entityManager.createQuery("SELECT t FROM " + type.getSimpleName() + " t", type).getResultList(); }
 
-    //<editor-fold desc="Getters/Setters">
     public EntityManager getEntityManager() {
         return entityManager;
     }
