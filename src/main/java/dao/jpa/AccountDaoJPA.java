@@ -12,7 +12,6 @@ import javax.ejb.Stateless;
 @JPA
 public class AccountDaoJPA extends GenericDaoJPAImpl<Account> implements AccountDao {
 
-
     public AccountDaoJPA() {
 
     }

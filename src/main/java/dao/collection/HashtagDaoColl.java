@@ -15,8 +15,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 @Default
 public class HashtagDaoColl implements HashtagDao {
 
-
-
     CopyOnWriteArrayList<Hashtag> hashtags = new CopyOnWriteArrayList<Hashtag>();
 
 

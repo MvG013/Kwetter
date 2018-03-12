@@ -26,6 +26,7 @@ public class AccountResponse {
         return Response.ok(entity).build();
     }
 
+
     @GET
     @Path("id")
     @Produces({MediaType.APPLICATION_JSON})

@@ -15,7 +15,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 @Default
 public class HeartDaoColl implements HeartDao {
 
-
     CopyOnWriteArrayList<Heart> hearts = new CopyOnWriteArrayList<Heart>();
 
     @PostConstruct
