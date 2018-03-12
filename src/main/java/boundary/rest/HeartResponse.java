@@ -16,7 +16,7 @@ import java.util.List;
 
 @Path("/hearts")
 @Stateless
-public class HeartResponseResource {
+public class HeartResponse {
 
     @Inject
     private HeartService heartService;

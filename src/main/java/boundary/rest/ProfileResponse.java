@@ -13,7 +13,7 @@ import java.util.List;
 
 @Path("/profiles")
 @Stateless
-public class ProfileResponseResource {
+public class ProfileResponse {
 
     @Inject
     private ProfileService profileService;

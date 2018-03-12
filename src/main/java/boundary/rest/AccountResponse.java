@@ -13,7 +13,7 @@ import java.util.List;
 
 @Path("accounts")
 @Stateless
-public class AccountResponseResource {
+public class AccountResponse {
 
     @Inject
     private AccountService accountService;

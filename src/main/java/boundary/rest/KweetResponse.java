@@ -17,7 +17,7 @@ import java.util.List;
 
 @Path("kweets")
 @Stateless
-public class KweetResponseResource {
+public class KweetResponse {
 
     @Inject
     private AccountService accountService;

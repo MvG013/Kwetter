@@ -14,7 +14,7 @@ import java.util.List;
 
 @Path("hashtags")
 @Stateless
-public class HashtagResponseResource {
+public class HashtagResponse {
 
     @Inject
     private HashtagService hashtagService;
