@@ -1,50 +1,11 @@
 package dao;
 
-import domain.Hashtag;
-import domain.Kweet;
-import domain.User;
+import domain.*;
 
-import java.util.ArrayList;
+import java.util.List;
 
-public interface KweetDao {
+public interface KweetDao extends GenericDao<Kweet> {
 
-
-    /* Kweets */
-    void addKweet(Kweet kweet);
-
-    void removeKweet(Kweet kweet);
-
-    ArrayList<Kweet> getKweets();
-
-    ArrayList<Kweet> getRecentKweets();
-
-    ArrayList<Kweet> findKweetsByKeyword();
-
-
-    /* Mentions */
-    void addMention (User user);
-
-    void removeMention (User user);
-
-    ArrayList<User> getMentions();
-
-
-
-    /* Hashtags */
-    void addHashtag (Hashtag hashtag);
-
-    void removeHashtag (Hashtag hashtag);
-
-    ArrayList<Hashtag> getHashtags();
-
-
-
-    /* Likes */
-    void addLike (User user);
-
-    void removeLike (User user);
-
-    ArrayList<User> getLikes();
-
+    List<Kweet> findBySender(Account sender);
 
 }

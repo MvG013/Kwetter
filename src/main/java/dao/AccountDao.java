@@ -1,4 +1,7 @@
 package dao;
 
-public interface AccountDao {
+import domain.Account;
+
+public interface AccountDao extends GenericDao<Account>{
+
 }

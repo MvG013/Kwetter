@@ -1,3 +1,3 @@
 package domain;
 
-enum Role{ User , Moderator , Admin }
+public enum Role{ User , Moderator , Admin }
