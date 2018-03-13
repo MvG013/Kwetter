@@ -21,17 +21,16 @@ public class AccountResponse {
     @GET
     @Produces({MediaType.APPLICATION_JSON})
     public Response findAll() {
-        GenericEntity entity = new GenericEntity<List<Account>>(accountService.findAll()) {
-        };
+        GenericEntity entity = new GenericEntity<List<Account>>(accountService.findAll()) { };
         return Response.ok(entity).build();
     }
 
-
     @GET
-    @Path("id")
+    @Path("{id}")
     @Produces({MediaType.APPLICATION_JSON})
     public Response getAccount(@QueryParam("id") Long id) {
         Account account = accountService.findById(id);
+        System.out.println(account);
         if (account == null) {
             throw new WebApplicationException(Response.Status.NOT_FOUND);
         }

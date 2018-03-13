@@ -19,7 +19,7 @@ public class StartUp {
     }
 
     @PostConstruct
-    private void intData(){
+    private void init(){
 
         Account account = new Account();
         account.setUsername("Jens");
@@ -45,5 +45,4 @@ public class StartUp {
         account3.setProfile(new Profile());
         accountService.create(account3);
     }
-
 }

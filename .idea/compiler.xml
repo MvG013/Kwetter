@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="basic-jee" />
+        <module name="Kwetter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basic-jee" target="1.8" />
+      <module name="Kwetter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

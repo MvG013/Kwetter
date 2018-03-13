@@ -1,14 +1,17 @@
 package dao;
 
+import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.List;
 
-public abstract  class GenericDaoJPAImpl<T> implements GenericDao<T>{
+@Stateless
+@JPA
+public class GenericDaoJPAImpl<T> implements GenericDao<T> {
 
-    @PersistenceContext(name = "kwetterPU")
+    @PersistenceContext
     protected EntityManager entityManager;
 
     private Class<T> type;
@@ -37,10 +40,12 @@ public abstract  class GenericDaoJPAImpl<T> implements GenericDao<T>{
     }
 
     public T findById(Long id) {
-        return (T) this.entityManager.find(type, id);
+        return this.entityManager.find(type, id);
     }
 
-    public List<T> findAll() { return entityManager.createQuery("SELECT t FROM " + type.getSimpleName() + " t", type).getResultList(); }
+    public List<T> findAll() {
+        return entityManager.createQuery("SELECT t FROM " + type.getSimpleName() + " t", type).getResultList();
+    }
 
     public EntityManager getEntityManager() {
         return entityManager;
@@ -49,5 +54,4 @@ public abstract  class GenericDaoJPAImpl<T> implements GenericDao<T>{
     public void setEntityManager(EntityManager entityManager) {
         this.entityManager = entityManager;
     }
-
 }
