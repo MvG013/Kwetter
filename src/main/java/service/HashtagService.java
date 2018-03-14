@@ -39,7 +39,7 @@ public class HashtagService {
         return this.hashtagDao.findById(id);
     }
 
-    public Hashtag findByBodyText(String text) { return this.hashtagDao.findByText(text); }
+    public Hashtag findByText(String text) { return this.hashtagDao.findByText(text); }
 
     public List<Hashtag> findAll() {
         return this.hashtagDao.findAll();

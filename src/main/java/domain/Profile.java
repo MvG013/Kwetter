@@ -28,7 +28,6 @@ public class Profile implements Serializable {
     private Account account;
 
     @OneToMany
-    @JsonBackReference
     private List<Kweet> kweets;
 
     @OneToMany
