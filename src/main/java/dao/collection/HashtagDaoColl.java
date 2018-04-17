@@ -25,11 +25,13 @@ public class HashtagDaoColl implements HashtagDao {
     public HashtagDaoColl() {
     }
 
-    public Hashtag findByText(String bodyText) {
+    public List<Hashtag> findByText(String text) {
+        List<Hashtag> foundHashtags = new ArrayList<Hashtag>();
         for (Hashtag hashtag : hashtags) {
-            if (hashtag.getText().contentEquals(bodyText)) {
-                return hashtag;
+            if (hashtag.getText().contentEquals(text)) {
+                foundHashtags.add(hashtag);
             }
+            return foundHashtags;
         }
         return null;
     }

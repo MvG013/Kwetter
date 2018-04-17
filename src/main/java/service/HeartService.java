@@ -43,7 +43,7 @@ public class HeartService {
         return this.heartDao.findAll();
     }
 
-    public Heart findByKweet(Kweet kweet) {
+    public List<Heart> findByKweet(Kweet kweet) {
         return this.heartDao.findByKweet(kweet);
     }
 

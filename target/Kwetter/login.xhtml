@@ -1,0 +1,42 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/templates/template.xhtml">
+
+    <ui:define name="title">Login</ui:define>
+
+    <ui:define name="content">
+
+        <h:form>
+            <div id="content">
+                <div class="container h-100">
+                    <div class="row h-100 justify-content-center align-items-center vertical-center">
+                        <div class="card login-card justify-content-center">
+                            <div class="form-userGroup">
+                                <p:inputText styleClass="form-control"
+                                             id="username"
+                                             placeholder="Username"
+                                             value="#{loginBean.username}"/>
+                            </div>
+                            <div class="form-userGroup">
+                                <p:password type="password"
+                                            styleClass="form-control"
+                                            id="password"
+                                            placeholder="Password"
+                                            value="#{loginBean.password}"/>
+                            </div>
+                            <p:commandButton styleClass="btn btn-primary w-100"
+                                             value="Login"
+                                             action="#{loginBean.login}"/>
+                            <span id="registerHelper" class="form-text text-muted text-center"
+                                  style="font-size: small;">Not registered? <strong>Create an account</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </h:form>
+
+    </ui:define>
+</ui:composition>

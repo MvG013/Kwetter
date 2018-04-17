@@ -1,5 +1,7 @@
 package domain;
 
+import javax.json.Json;
+import javax.json.JsonObject;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
@@ -15,19 +17,30 @@ public class Heart implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Temporal(TemporalType.DATE)
-    private Date heartDate;
-
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     private Kweet kweet;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    private Profile sender;
 
     public Heart() {
     }
 
-    public Heart(Date heartDate, Kweet kweet) {
-        this.heartDate = heartDate;
+    public Heart(Kweet kweet, Profile sender) {
+        this();
         this.kweet = kweet;
+        this.sender = sender;
     }
+
+//    public JsonObject toJson() {
+//        return Json.createObjectBuilder()
+//                .add("kweet", Json.createObjectBuilder()
+//                        .add("messageBody", this.kweet.getText()).build())
+//                .add("profile", Json.createObjectBuilder()
+//                        .add("FirstName", this.sender.getFirstName()).build()
+//                        .add("Lastname", this.sender.getLastName()).build())
+//                .build();
+//    }
 
     public Long getId() {
         return id;
@@ -37,14 +50,6 @@ public class Heart implements Serializable {
         this.id = id;
     }
 
-    public Date getHeartDate() {
-        return heartDate;
-    }
-
-    public void setHeartDate(Date dateOfHearting) {
-        this.heartDate = dateOfHearting;
-    }
-
     public Kweet getKweet() {
         return kweet;
     }
@@ -52,6 +57,7 @@ public class Heart implements Serializable {
     public void setKweet(Kweet kweet) {
         this.kweet = kweet;
     }
+
 
     @Override
     public boolean equals(Object o) {

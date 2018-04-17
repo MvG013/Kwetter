@@ -3,18 +3,20 @@ package rest;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.equalTo;
 import static rest.RestTestSetup.Setup;
 
+
 public class AccountRestTest {
+
 
     @BeforeClass
     public static void setup() {
         Setup();
     }
+
 
     @Test
     public void getAccountByID() {
@@ -26,6 +28,7 @@ public class AccountRestTest {
                 body("username", equalTo("Jens"),
                         "id", equalTo(1));
     }
+
 
     @Test
     public void getAllAccounts() {

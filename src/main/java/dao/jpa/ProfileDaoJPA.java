@@ -15,4 +15,9 @@ public class ProfileDaoJPA extends GenericDaoJPAImpl<Profile> implements Profile
     public ProfileDaoJPA() {
     }
 
+    public Profile findByUsername(String username) {
+        return getEntityManager().createNamedQuery("profile.findByUsername", Profile.class)
+                .setParameter("username", username)
+                .getSingleResult();
+    }
 }

@@ -49,4 +49,9 @@ public class ProfileDaoColl implements ProfileDao {
     public List<Profile> findAll() {
         return profiles;
     }
+
+    @Override
+    public Profile findByUsername(String username) {
+        return null;
+    }
 }

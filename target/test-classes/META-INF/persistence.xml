@@ -8,7 +8,7 @@
     <class>domain.Heart</class>
     <class>domain.Kweet</class>
     <class>domain.Profile</class>
-    <class>domain.Role</class>
+    <class>domain.UserGroup</class>
     <exclude-unlisted-classes>true</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/AccountTestDB"/>

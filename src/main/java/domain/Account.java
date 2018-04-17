@@ -1,23 +1,33 @@
 package domain;
 
-import java.io.Serializable;
-import java.util.Objects;
+import util.Hashing;
+
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Objects;
 
 
 @Entity
 @XmlRootElement
+@NamedQueries({
+        @NamedQuery(name = "account.findByUsername", query = "SELECT a FROM Account a WHERE a.username = :username")
+})
 public class Account implements Serializable{
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @NotNull
     @Column(unique = true)
+    @Size(min = 4, max = 10)
     private String username;
 
     @NotNull
@@ -33,21 +43,35 @@ public class Account implements Serializable{
     @OneToOne(cascade = CascadeType.ALL)
     private Profile profile;
 
-    @NotNull
-    @Enumerated(value = EnumType.STRING)
-    private Role role;
+    @ManyToMany(cascade = {CascadeType.ALL}, fetch = FetchType.EAGER, mappedBy = "accounts")
+    private List<UserGroup> userGroups;
 
-    public Account(@NotNull String username, @NotNull String password, @NotNull @Email String email, @NotNull Role role) {
+    public Account(String username,String password, String email) {
         this.username = username;
-        this.password = password;
         this.email = email;
-        this.role = role;
+        try {
+            this.password = Hashing.hashPassword(password);
+        } catch (Exception ex) {
+            System.out.println("exception message = " + ex.getMessage());
+        }
         this.profile = new Profile();
     }
 
     public Account() {
+        this.userGroups = new ArrayList<>();
     }
 
+//    public JsonObject toJson() {
+//        return Json.createObjectBuilder()
+//                .add("id", this.id)
+//                .add("username", this.username)
+//                .add("email", this.email)
+//                .add("group", this.group.toString())
+//                .add("profile", Json.createObjectBuilder()
+//                        .add("firstName", profile.getFirstName())
+//                        .add("lastName", profile.getLastName()).build())
+//                .build();
+//    }
 
     public Long getId() {
         return id;
@@ -70,7 +94,11 @@ public class Account implements Serializable{
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        try {
+            this.password = Hashing.hashPassword(password);
+        } catch (Exception ex) {
+            System.out.println("exception message = " + ex.getMessage());
+        }
     }
 
     public String getEmail() {
@@ -81,20 +109,32 @@ public class Account implements Serializable{
         this.email = email;
     }
 
-    public Role getRole() {
-        return role;
-    }
-
-    public void setRole(Role role) {
-        this.role = role;
-    }
-
     public Profile getProfile() {
         return profile;
     }
 
     public void setProfile(Profile profile) {
         this.profile = profile;
+    }
+
+    public Collection<UserGroup> getGroup() {
+        return userGroups;
+    }
+
+    public void setGroup(List<UserGroup> userGroup) {
+        this.userGroups = userGroup;
+    }
+
+    public void addGroup(UserGroup userGroup){
+        this.userGroups.add(userGroup);
+    }
+
+    public void removeGroup(UserGroup userGroup){
+        this.userGroups.remove(userGroup);
+    }
+
+    public void clearrole() {
+        this.userGroups.clear();
     }
 
     @Override

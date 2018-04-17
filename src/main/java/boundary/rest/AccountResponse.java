@@ -28,7 +28,7 @@ public class AccountResponse {
     @GET
     @Path("{id}")
     @Produces({MediaType.APPLICATION_JSON})
-    public Response getAccount(@QueryParam("id") Long id) {
+    public Response getAccount(@PathParam("id") Long id) {
         Account account = accountService.findById(id);
         System.out.println(account);
         if (account == null) {
@@ -36,4 +36,5 @@ public class AccountResponse {
         }
         return Response.ok(account).build();
     }
+
 }

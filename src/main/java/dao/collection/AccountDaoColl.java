@@ -53,4 +53,9 @@ public class AccountDaoColl implements AccountDao {
     public List<Account> findAll() {
         return accounts;
     }
+
+    @Override
+    public Account findByUsername(String username) {
+        return null;
+    }
 }

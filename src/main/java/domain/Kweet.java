@@ -1,9 +1,11 @@
 package domain;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import javax.persistence.*;
@@ -12,9 +14,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @Entity
 @NamedQueries({
-        @NamedQuery(name = "kweet.findByAccount", query = "SELECT k FROM Kweet k WHERE k.sender = :sender")
+        @NamedQuery(name = "kweet.findByBodyText", query = "SELECT K FROM Kweet k WHERE k.text LIKE :bodyText"),
+        @NamedQuery(name = "kweet.findByAccount", query = "SELECT k FROM Kweet k WHERE k.sender = :sender"),
+        @NamedQuery(name = "kweet.findByMention", query = "SELECT k FROM Kweet k WHERE :mention IN(k.mentions)")
 })
-
 
 @XmlRootElement
 public class Kweet implements Serializable {
@@ -37,20 +40,21 @@ public class Kweet implements Serializable {
     @JsonIgnore
     private List<Profile> mentions;
 
-    @OneToMany
-    @JsonIgnore
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonBackReference
     private List<Hashtag> hashtags;
 
 
-    public Kweet(@Size(min = 1, max = 140) String text, Profile sender, List<Heart> hearts, List<Profile> mentions, List<Hashtag> hashtags) {
+    public Kweet(@Size(max = 140) String text, Profile sender) {
+        this();
         this.text = text;
         this.sender = sender;
-        this.hearts = hearts;
-        this.mentions = mentions;
-        this.hashtags = hashtags;
     }
 
     public Kweet() {
+        this.hashtags = new ArrayList<Hashtag>();
+        this.mentions = new ArrayList<Profile>();
+        this.hearts = new ArrayList<Heart>();
     }
 
     public Long getId() {
@@ -100,6 +104,14 @@ public class Kweet implements Serializable {
     public void setHashtags(List<Hashtag> hashtags) {
         this.hashtags = hashtags;
     }
+
+    public void addHashtag(Hashtag hashtag) { this.hashtags.add(hashtag); }
+
+    public void addHeart(Heart heart) { this.hearts.add(heart); }
+
+    public void addMention(Profile mention) { this.mentions.add(mention);}
+
+
 
     @Override
     public boolean equals(Object o) {

@@ -1,7 +1,6 @@
 package dao.jpa;
 
 import domain.Account;
-import domain.Role;
 import org.junit.Before;
 import org.junit.Test;
 import util.DatabaseCleaner;
@@ -29,6 +28,7 @@ public class AccountDaoJPATest {
     public AccountDaoJPATest() {
     }
 
+
     @Before
     public void setUp() {
         try {
@@ -41,8 +41,9 @@ public class AccountDaoJPATest {
 
         this.accountDaoJPA = new AccountDaoJPA();
         accountDaoJPA.setEntityManager(em);
-        account = new Account("RensTest", "RensTest", "RensTest@hotmail.com" , Role.User);
+        account = new Account("RensTest", "RensTest", "RensTest@hotmail.com");
     }
+
 
     @Test
     public void testCreate() {

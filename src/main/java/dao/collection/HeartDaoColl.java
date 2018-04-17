@@ -24,14 +24,6 @@ public class HeartDaoColl implements HeartDao {
     public HeartDaoColl() {
     }
 
-    public Heart findByKweet(Kweet kweet) {
-        for (Heart heart : hearts) {
-            if (heart.getKweet().equals(kweet)) {
-                return heart;
-            }
-        }
-        return null;
-    }
 
     public ArrayList<Heart> getHearts() {
         return new ArrayList<Heart>();
@@ -72,5 +64,17 @@ public class HeartDaoColl implements HeartDao {
 
     public List<Heart> findAll() {
         return hearts;
+    }
+
+    @Override
+    public List<Heart> findByKweet(Kweet kweet) {
+        List<Heart> heartsList = new ArrayList<Heart>();
+        for (Heart heart : hearts) {
+            if (heart.getKweet().equals(kweet)) {
+                heartsList.add(heart);
+            }
+            return heartsList;
+        }
+        return null;
     }
 }

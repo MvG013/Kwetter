@@ -13,7 +13,11 @@ import javax.ejb.Stateless;
 public class AccountDaoJPA extends GenericDaoJPAImpl<Account> implements AccountDao {
 
     public AccountDaoJPA() {
-
     }
 
+    public Account findByUsername(String username) {
+        return getEntityManager().createNamedQuery("account.findByUsername", Account.class)
+                .setParameter("username", username)
+                .getSingleResult();
+    }
 }

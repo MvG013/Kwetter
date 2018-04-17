@@ -4,11 +4,11 @@ import domain.Heart;
 import domain.Kweet;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public interface HeartDao extends GenericDao<Heart> {
 
-    Heart findByKweet(Kweet kweet);
+    List<Heart> findByKweet(Kweet kweet);
 
-    ArrayList<Heart> getHearts();
 }

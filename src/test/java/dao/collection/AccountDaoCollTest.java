@@ -1,7 +1,6 @@
 package dao.collection;
 
 import domain.Account;
-import domain.Role;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -20,8 +19,8 @@ public class AccountDaoCollTest {
     @Before
     public void setUp() {
         this.accountDaoColl = new AccountDaoColl();
-        this.account = new Account("jensTest",  "jensTest", "jensTest@hotmail.com",Role.User);
-        this.account2 = new Account("JoostTest",  "jensTest", "JoostTest@hotmail.com",Role.Administrator);
+        this.account = new Account("jensTest",  "jensTest", "jensTest@hotmail.com");
+        this.account2 = new Account("JoostTest",  "jensTest", "JoostTest@hotmail.com");
     }
 
     @Test

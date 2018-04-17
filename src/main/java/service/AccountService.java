@@ -1,8 +1,10 @@
 package service;
 
+import com.mysql.jdbc.StringUtils;
 import dao.AccountDao;
 import dao.JPA;
 import domain.Account;
+import util.Hashing;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
@@ -41,4 +43,12 @@ public class AccountService {
     public List<Account> findAll() {
         return this.accountDao.findAll();
     }
+
+    public Account findByUsername(String username) {
+        if (!StringUtils.isNullOrEmpty(username)) {
+            return this.accountDao.findByUsername(username);
+        }
+        return null;
+    }
+
 }

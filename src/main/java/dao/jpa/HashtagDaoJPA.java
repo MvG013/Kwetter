@@ -18,10 +18,10 @@ public class HashtagDaoJPA extends GenericDaoJPAImpl<Hashtag> implements Hashtag
     public HashtagDaoJPA() {
     }
 
-    public Hashtag findByText(String bodyText) {
-        TypedQuery<Hashtag> query = entityManager.createNamedQuery("hashtag.findByText", Hashtag.class);
-        query.setParameter("bodyText", bodyText);
-        List<Hashtag> result = query.getResultList();
-        return result.get(0);
+    @Override
+    public List<Hashtag> findByText(String text) {
+        return getEntityManager().createNamedQuery("hashtag.findByText", Hashtag.class)
+                .setParameter("bodyText", "#" +  text +"%")
+                .getResultList();
     }
 }

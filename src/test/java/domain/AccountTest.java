@@ -12,14 +12,13 @@ public class AccountTest {
     private Account account = null;
     private Account account2 = null;
     private Profile profile = null;
-    private Role role = null;
+    private UserGroup userGroup = null;
 
     @Before
     public void setUp() {
         account = new Account();
-        account2 = new Account("RensTest",  "RensTest", "RensTest@hotmail.com",Role.User);
+        account2 = new Account("RensTest",  "RensTest", "RensTest@hotmail.com");
         profile = new Profile();
-        role = Role.User;
     }
 
     @Test
@@ -67,16 +66,8 @@ public class AccountTest {
     }
 
     @Test
-    public void testGetAndSetRole() {
-        account.setRole(role);
-        Role expResult = role;
-        Role result = account.getRole();
-        assertEquals(expResult, result);
-    }
-
-    @Test
     public void testEquals() {
-        Account test1 = new Account("JensTest", "test", "JensTest@hotmail.nl", Role.Administrator);
+        Account test1 = new Account("JensTest", "test", "JensTest@hotmail.nl");
         String userName = "RensTest";
         String email = "RensTest@hotmail.com";
         String password = "RensTest";

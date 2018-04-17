@@ -1,8 +1,10 @@
 package domain;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
+import org.eclipse.persistence.annotations.CascadeOnDelete;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 import javax.persistence.*;
@@ -11,12 +13,16 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @Entity
 @XmlRootElement
+@NamedQueries({
+        @NamedQuery(name = "profile.findByUsername", query = "SELECT p FROM Profile p WHERE p.account.username = :username")
+})
 public class Profile implements Serializable {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String photo;
-    private String name;
+    private String firstName;
+    private String lastName;
     private String location;
     private String website;
 
@@ -27,30 +33,43 @@ public class Profile implements Serializable {
     @OneToOne(cascade = CascadeType.ALL)
     private Account account;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
+    @CascadeOnDelete
     private List<Kweet> kweets;
 
-    @OneToMany
+    @ManyToMany(cascade = CascadeType.ALL)
     private List<Profile> followers;
 
-    @OneToMany
+    @Transient
     private List<Profile> following;
 
-    @OneToMany
-    private List<Kweet> mentions;
+    public Profile(String firstName, String lastName) {
+        this();
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
+    public Profile(String firstName, String lastName, Account account) {
+        this();
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.account = account;
+    }
 
-
-    public Profile(String photo, String name, String location, String website, String bio, Account account) {
+    public Profile(String firstName, String lastName, String photo, String location, String bio, Account account) {
+        this();
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.photo = photo;
-        this.name = name;
         this.location = location;
-        this.website = website;
         this.bio = bio;
         this.account = account;
     }
 
     public Profile() {
+        this.followers = new ArrayList<Profile>();
+        this.following = new ArrayList<Profile>();
+        this.kweets = new LinkedList<Kweet>();
     }
 
     public Long getId() {
@@ -69,12 +88,12 @@ public class Profile implements Serializable {
         this.photo = photo;
     }
 
-    public String getName() {
-        return name;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFirstName(String name) {
+        this.firstName = name;
     }
 
     public String getLocation() {
@@ -133,14 +152,17 @@ public class Profile implements Serializable {
         this.following = following;
     }
 
-    public List<Kweet> getMentions() {
-        return mentions;
+    public void addKweet(Kweet kweet) {
+        this.kweets.add(kweet);
     }
 
-    public void setMentions(List<Kweet> mentions) {
-        this.mentions = mentions;
+    public void addFollowing(Profile following) {
+        this.following.add(following);
     }
 
+    public void addFollower(Profile follower) {
+        this.followers.add(follower);
+    }
     @Override
     public int hashCode() {
         int hash = 7;
@@ -160,7 +182,14 @@ public class Profile implements Serializable {
             return false;
         }
         final Profile other = (Profile) obj;
-        return Objects.equals(this.name, other.name);
+        return Objects.equals(this.firstName, other.firstName);
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }
