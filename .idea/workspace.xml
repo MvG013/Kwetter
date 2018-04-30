@@ -6,127 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b1ab2a-adf2-4fd9-bc71-98ce8e6e7cdc" name="Default" comment="all changes for angular front-end / starting jwt">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_omnifaces_omnifaces_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/AccountOverviewBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/MessageHelper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/RegistrationBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/SessionBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/UserDetailsBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/AccountOverviewBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/MessageHelper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/RegistrationBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/SessionBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/UserDetailsBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/web/AccountOverviewBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/web/MessageHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/web/RegistrationBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/web/UserDetailsBean.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Kwetter_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Kwetter_war_exploded.xml" />
+    <list default="true" id="c6b1ab2a-adf2-4fd9-bc71-98ce8e6e7cdc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Kwetter.iml" afterPath="$PROJECT_DIR$/Kwetter.iml" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/HashtagResponse$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/HashtagResponse.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/HashtagResponse.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/KweetResponse$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/KweetResponse$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/KweetResponse.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/KweetResponse.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/ProfileResponse$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/ProfileResponse.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/ProfileResponse.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/AccountDao.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/AccountDao.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/GenericDao.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/GenericDao.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/GenericDaoJPAImpl.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/GenericDaoJPAImpl.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/HashtagDao.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/HashtagDao.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/KweetDao.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/KweetDao.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/AccountDaoColl.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/AccountDaoColl.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/HashtagDaoColl.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/HashtagDaoColl.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/HeartDaoColl.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/HeartDaoColl.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/KweetDaoColl.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/KweetDaoColl.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/ProfileDaoColl.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/ProfileDaoColl.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/jpa/AccountDaoJPA.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/jpa/AccountDaoJPA.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/jpa/HashtagDaoJPA.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/jpa/HashtagDaoJPA.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/jpa/KweetDaoJPA.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/jpa/KweetDaoJPA.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Account.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Account.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Hashtag.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Hashtag.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Heart.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Heart.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Kweet.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Kweet.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Profile.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Profile.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/HashtagService.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/HashtagService.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/KweetService.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/KweetService.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/ProfileService.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/ProfileService.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/StartUp.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/StartUp.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/UserGroupService.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/UserGroupService.class" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/LoginBean.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/LoginBean.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/HashtagResponse$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/HashtagResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/HashtagResponse.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/KweetResponse$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/KweetResponse$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/KweetResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/KweetResponse.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/ProfileResponse$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/ProfileResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/ProfileResponse.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/AccountDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/AccountDao.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/GenericDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/GenericDao.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/GenericDaoJPAImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/GenericDaoJPAImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/HashtagDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/HashtagDao.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/KweetDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/KweetDao.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/AccountDaoColl.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/AccountDaoColl.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/HashtagDaoColl.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/HashtagDaoColl.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/HeartDaoColl.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/HeartDaoColl.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/KweetDaoColl.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/KweetDaoColl.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/ProfileDaoColl.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/ProfileDaoColl.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/jpa/AccountDaoJPA.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/jpa/AccountDaoJPA.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/jpa/HashtagDaoJPA.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/jpa/HashtagDaoJPA.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/jpa/KweetDaoJPA.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/jpa/KweetDaoJPA.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Account.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Account.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Hashtag.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Hashtag.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Heart.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Heart.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Kweet.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Kweet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Profile.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Profile.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/HashtagService.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/HashtagService.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/KweetService.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/KweetService.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/ProfileService.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/ProfileService.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/StartUp.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/StartUp.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/UserGroupService.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/UserGroupService.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/LoginBean.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/LoginBean.class" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/boundary/rest/HashtagResponse.java" afterPath="$PROJECT_DIR$/src/main/java/boundary/rest/HashtagResponse.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/boundary/rest/KweetResponse.java" afterPath="$PROJECT_DIR$/src/main/java/boundary/rest/KweetResponse.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/boundary/rest/ProfileResponse.java" afterPath="$PROJECT_DIR$/src/main/java/boundary/rest/ProfileResponse.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/AccountDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/AccountDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/GenericDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/GenericDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/GenericDaoJPAImpl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/GenericDaoJPAImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/HashtagDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/HashtagDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/KweetDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/KweetDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/collection/AccountDaoColl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/collection/AccountDaoColl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/collection/HashtagDaoColl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/collection/HashtagDaoColl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/collection/HeartDaoColl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/collection/HeartDaoColl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/collection/KweetDaoColl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/collection/KweetDaoColl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/collection/ProfileDaoColl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/collection/ProfileDaoColl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/AccountDaoJPA.java" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/AccountDaoJPA.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/HashtagDaoJPA.java" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/HashtagDaoJPA.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/KweetDaoJPA.java" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/KweetDaoJPA.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Account.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Account.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Hashtag.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Hashtag.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Heart.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Heart.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Kweet.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Kweet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Profile.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Profile.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/HashtagService.java" afterPath="$PROJECT_DIR$/src/main/java/service/HashtagService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/KweetService.java" afterPath="$PROJECT_DIR$/src/main/java/service/KweetService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProfileService.java" afterPath="$PROJECT_DIR$/src/main/java/service/ProfileService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/StartUp.java" afterPath="$PROJECT_DIR$/src/main/java/service/StartUp.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserGroupService.java" afterPath="$PROJECT_DIR$/src/main/java/service/UserGroupService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/LoginBean.java" afterPath="$PROJECT_DIR$/src/main/java/web/LoginBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/SessionBean.java" afterPath="$PROJECT_DIR$/src/main/java/web/SessionBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/stylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/stylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/header.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/templates/header.xhtml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/template.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/templates/template.xhtml" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter.war" afterPath="$PROJECT_DIR$/target/Kwetter.war" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/HashtagResponse$1.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/HashtagResponse.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/HashtagResponse.class" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/KweetResponse$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/KweetResponse$2.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/KweetResponse.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/KweetResponse.class" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/ProfileResponse$1.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/ProfileResponse.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/ProfileResponse.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/AccountDao.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/AccountDao.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/GenericDao.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/GenericDao.class" />
@@ -160,12 +44,8 @@
       <change beforePath="$PROJECT_DIR$/target/Kwetter/resources/css/stylesheet.css" afterPath="$PROJECT_DIR$/target/Kwetter/resources/css/stylesheet.css" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/templates/header.xhtml" afterPath="$PROJECT_DIR$/target/Kwetter/templates/header.xhtml" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/templates/template.xhtml" afterPath="$PROJECT_DIR$/target/Kwetter/templates/template.xhtml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/HashtagResponse$1.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/HashtagResponse.class" afterPath="$PROJECT_DIR$/target/classes/boundary/rest/HashtagResponse.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/KweetResponse$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/KweetResponse$2.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/KweetResponse.class" afterPath="$PROJECT_DIR$/target/classes/boundary/rest/KweetResponse.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/ProfileResponse$1.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/ProfileResponse.class" afterPath="$PROJECT_DIR$/target/classes/boundary/rest/ProfileResponse.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/AccountDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/AccountDao.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/GenericDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/GenericDao.class" />
@@ -306,8 +186,8 @@
       <file leaf-file-name="LoginBean.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/web/LoginBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -1181,8 +1061,16 @@
       <workItem from="1524524431674" duration="265000" />
       <workItem from="1524561230735" duration="2570000" />
       <workItem from="1524642305966" duration="1866000" />
-      <workItem from="1525087651143" duration="150000" />
+      <workItem from="1525087651143" duration="205000" />
     </task>
+    <task id="LOCAL-00001" summary="all changes for angular front-end / starting jwt">
+      <created>1525087825392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525087825392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1218,7 +1106,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183491000" />
+    <option name="totallyTimeSpent" value="183546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1694,8 +1582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/LoginBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>
