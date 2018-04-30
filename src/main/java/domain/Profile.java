@@ -1,12 +1,13 @@
 package domain;
 
-import org.eclipse.persistence.annotations.CascadeOnDelete;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
+import javax.json.Json;
+import javax.json.JsonObject;
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -25,6 +26,7 @@ public class Profile implements Serializable {
     private String lastName;
     private String location;
     private String website;
+    private String birthDay;
 
     @Column(length=160)
     private String bio;
@@ -33,14 +35,16 @@ public class Profile implements Serializable {
     @OneToOne(cascade = CascadeType.ALL)
     private Account account;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    @CascadeOnDelete
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "sender", orphanRemoval = true)
     private List<Kweet> kweets;
 
-    @ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany(cascade = {CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH, CascadeType.DETACH})
+    private List<Kweet> mentionKweets;
+
+    @ManyToMany(cascade = CascadeType.PERSIST , mappedBy = "following")
     private List<Profile> followers;
 
-    @Transient
+    @ManyToMany
     private List<Profile> following;
 
     public Profile(String firstName, String lastName) {
@@ -56,7 +60,7 @@ public class Profile implements Serializable {
         this.account = account;
     }
 
-    public Profile(String firstName, String lastName, String photo, String location, String bio, Account account) {
+    public Profile(String firstName, String lastName, String photo, String location, String bio, Account account, String birthday) {
         this();
         this.firstName = firstName;
         this.lastName = lastName;
@@ -64,6 +68,7 @@ public class Profile implements Serializable {
         this.location = location;
         this.bio = bio;
         this.account = account;
+        this.birthDay = birthday;
     }
 
     public Profile() {
@@ -152,6 +157,22 @@ public class Profile implements Serializable {
         this.following = following;
     }
 
+    public String getBirthDay() {
+        return birthDay;
+    }
+
+    public void setBirthDay(String birthDay) {
+        this.birthDay = birthDay;
+    }
+
+    public List<Kweet> getMentionKweets() {
+        return mentionKweets;
+    }
+
+    public void setMentionKweets(List<Kweet> mentionKweets) {
+        this.mentionKweets = mentionKweets;
+    }
+
     public void addKweet(Kweet kweet) {
         this.kweets.add(kweet);
     }
@@ -191,5 +212,22 @@ public class Profile implements Serializable {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public JsonObject toJson() {
+
+        return Json.createObjectBuilder()
+                .add("id", this.id)
+                .add("username", this.account.getUsername())
+                .add("email", this.account.getEmail())
+                .add("location", this.location)
+                .add("firstName", this.firstName)
+                .add("lastName", this.lastName)
+                .add("biography", this.bio)
+                .add("dateOfBirth", this.birthDay)
+                .add("avatarUrl", this.photo)
+                .add("amountFollowers", this.followers.size())
+                .add("amountFollowing", this.following.size())
+                .build();
     }
 }

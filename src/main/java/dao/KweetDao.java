@@ -6,10 +6,13 @@ import java.util.List;
 
 public interface KweetDao extends GenericDao<Kweet> {
 
-    List<Kweet> findBySender(Account sender);
+    List<Kweet> findAllKweetsByMessage(String message);
 
-    List<Kweet> findByText(String bodyText);
+    List<Kweet> findAllKweetsBySender(Long senderId);
 
-    List<Kweet> findByMention(Profile mention);
+    List findAllKweetsByHashtagSubject(String subject);
 
+    List<Kweet> findAllKweetsFromFollowing(Profile Profile);
+
+    List<Kweet> findBySender(Profile sender);
 }

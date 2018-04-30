@@ -6,6 +6,7 @@ import domain.UserGroup;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
+import java.util.List;
 
 
 @Stateless
@@ -27,5 +28,15 @@ public class UserGroupService {
 
     public UserGroup create(UserGroup userGroup) {
         return this.groupDao.create(userGroup);
+    }
+
+    public void update(UserGroup userGroup) {
+        if (userGroup != null) {
+            this.groupDao.update(userGroup);
+        }
+    }
+
+    public List<UserGroup> findAll() {
+        return this.groupDao.findAll();
     }
 }

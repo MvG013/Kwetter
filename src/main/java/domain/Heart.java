@@ -3,7 +3,10 @@ package domain;
 import javax.json.Json;
 import javax.json.JsonObject;
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Objects;
 
@@ -20,6 +23,12 @@ public class Heart implements Serializable {
     @ManyToOne(cascade = CascadeType.ALL)
     private Kweet kweet;
 
+    @NotNull
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date likeTime;
+
+
+
     @OneToOne(cascade = CascadeType.ALL)
     private Profile sender;
 
@@ -30,17 +39,20 @@ public class Heart implements Serializable {
         this();
         this.kweet = kweet;
         this.sender = sender;
+        this.likeTime = new Date();
     }
 
-//    public JsonObject toJson() {
-//        return Json.createObjectBuilder()
-//                .add("kweet", Json.createObjectBuilder()
-//                        .add("messageBody", this.kweet.getText()).build())
-//                .add("profile", Json.createObjectBuilder()
-//                        .add("FirstName", this.sender.getFirstName()).build()
-//                        .add("Lastname", this.sender.getLastName()).build())
-//                .build();
-//    }
+    public JsonObject toJson() {
+
+        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+
+        return Json.createObjectBuilder()
+                .add("id", this.id)
+                .add("timeOfLiking", dateFormat.format(this.likeTime))
+                .add("sender", this.sender.toJson())
+                .add("parentKweet", this.kweet.toJson())
+                .build();
+    }
 
     public Long getId() {
         return id;
@@ -58,6 +70,21 @@ public class Heart implements Serializable {
         this.kweet = kweet;
     }
 
+    public Date getLikeTime() {
+        return likeTime;
+    }
+
+    public void setLikeTime(Date likeTime) {
+        this.likeTime = likeTime;
+    }
+
+    public Profile getSender() {
+        return sender;
+    }
+
+    public void setSender(Profile sender) {
+        this.sender = sender;
+    }
 
     @Override
     public boolean equals(Object o) {

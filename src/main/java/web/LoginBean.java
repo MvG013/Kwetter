@@ -5,6 +5,7 @@ import service.*;
 import javax.enterprise.context.RequestScoped;
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
+import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 import javax.servlet.ServletException;
@@ -13,22 +14,23 @@ import java.io.IOException;
 import java.io.Serializable;
 
 @Named("loginBean")
-@RequestScoped
+@ViewScoped
 public class LoginBean implements Serializable {
 
     @Inject
     private AccountService accountService;
-
     @Inject
     private SessionBean sessionBean;
 
     private String username;
     private String password;
+    private Account possibleAccount;
 
     public void init() {
+
     }
 
-    public String login() {
+    public String login() throws IOException {
         FacesContext context = FacesContext.getCurrentInstance();
         HttpServletRequest request = (HttpServletRequest) context.getExternalContext().getRequest();
 
@@ -41,20 +43,17 @@ public class LoginBean implements Serializable {
         Account loggedInAccount = this.accountService.findByUsername(request.getRemoteUser());
         this.sessionBean.setLoggedInAccount(loggedInAccount);
 
-        boolean isUser = request.isUserInRole("UserRole");
+        boolean isRegular = request.isUserInRole("RegularRole");
+        boolean isAdmin = request.isUserInRole("AdminRole");
 
-        if (isUser) {
-            try {
-                FacesContext.getCurrentInstance().getExternalContext().redirect("profile.xhtml");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        if (isAdmin) {
+            FacesContext.getCurrentInstance().getExternalContext().redirect("./pages/admin/dashboard.xhtml");
+        } else {
+            FacesContext.getCurrentInstance().getExternalContext().redirect("./pages/regular/dashboard.xhtml");
         }
-
         return "";
     }
 
-    //<editor-fold desc="Getters/Setters">
     public AccountService getService() {
         return accountService;
     }
@@ -75,5 +74,12 @@ public class LoginBean implements Serializable {
         this.password = password;
     }
 
+    public Account getPossibleAccount() {
+        return possibleAccount;
+    }
+
+    public void setPossibleAccount(Account possibleAccount) {
+        this.possibleAccount = possibleAccount;
+    }
 
 }

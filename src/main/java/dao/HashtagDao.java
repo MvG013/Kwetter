@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface HashtagDao extends GenericDao<Hashtag>{
 
-    List<Hashtag> findByText(String text);
+    Hashtag findBySubject(String text);
 
 }

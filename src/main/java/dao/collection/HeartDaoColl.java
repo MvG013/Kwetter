@@ -67,6 +67,11 @@ public class HeartDaoColl implements HeartDao {
     }
 
     @Override
+    public Long countAll() {
+        return null;
+    }
+
+    @Override
     public List<Heart> findByKweet(Kweet kweet) {
         List<Heart> heartsList = new ArrayList<Heart>();
         for (Heart heart : hearts) {

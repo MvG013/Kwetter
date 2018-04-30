@@ -77,4 +77,14 @@ public class HashtagDaoColl implements HashtagDao {
     public List<Hashtag> findAll() {
         return hashtags;
     }
+
+    @Override
+    public Long countAll() {
+        return null;
+    }
+
+    @Override
+    public Hashtag findBySubject(String text) {
+        return null;
+    }
 }

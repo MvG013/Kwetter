@@ -51,6 +51,11 @@ public class ProfileDaoColl implements ProfileDao {
     }
 
     @Override
+    public Long countAll() {
+        return null;
+    }
+
+    @Override
     public Profile findByUsername(String username) {
         return null;
     }

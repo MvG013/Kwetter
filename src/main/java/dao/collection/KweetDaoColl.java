@@ -53,17 +53,46 @@ public class KweetDaoColl implements KweetDao{
         return kweets;
     }
 
+    @Override
+    public Long countAll() {
+        return null;
+    }
+
     public List<Kweet> findBySender(Account sender) {
         return null;
     }
 
-    @Override
+
     public List<Kweet> findByText(String bodyText) {
         return null;
     }
 
-    @Override
     public List<Kweet> findByMention(Profile mention) {
+        return null;
+    }
+
+    @Override
+    public List<Kweet> findAllKweetsByMessage(String message) {
+        return null;
+    }
+
+    @Override
+    public List<Kweet> findAllKweetsBySender(Long senderId) {
+        return null;
+    }
+
+    @Override
+    public List findAllKweetsByHashtagSubject(String subject) {
+        return null;
+    }
+
+    @Override
+    public List<Kweet> findAllKweetsFromFollowing(Profile Profile) {
+        return null;
+    }
+
+    @Override
+    public List<Kweet> findBySender(Profile sender) {
         return null;
     }
 }

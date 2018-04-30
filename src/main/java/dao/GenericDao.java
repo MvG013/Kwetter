@@ -16,4 +16,5 @@ public interface GenericDao<T> {
 
     List<T> findAll();
 
+    Long countAll();
 }

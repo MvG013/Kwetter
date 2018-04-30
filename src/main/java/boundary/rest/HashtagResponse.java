@@ -21,20 +21,31 @@ public class HashtagResponse {
 
     @GET
     @Produces({MediaType.APPLICATION_JSON})
-    public Response findAll() {
-        GenericEntity entity = new GenericEntity<List<Hashtag>>(hashtagService.findAll()) {
-        };
-        return Response.ok(entity).build();
+    public Response getAll() {
+        List<Hashtag> hashtags = hashtagService.findAll();
+        return Response.ok(hashtagService.convertAllToJson(hashtags)).header("Access-Control-Allow-Origin", "*").build();
     }
 
     @GET
     @Path("{id}")
     @Produces({MediaType.APPLICATION_JSON})
-    public Response getHashtag(@QueryParam("id") Long id) {
+    public Response findById(@QueryParam("id") Long id) {
         Hashtag hashtag = hashtagService.findById(id);
-        if (hashtag == null) {
-            throw new WebApplicationException(Response.Status.NOT_FOUND);
+        if (hashtag != null) {
+            return Response.ok(hashtag.toJson()).header("Access-Control-Allow-Origin", "*").build();
         }
-        return Response.ok(hashtag).build();
+        return Response.status(Response.Status.NOT_FOUND).header("Access-Control-Allow-Origin", "*").build();
     }
+
+    @GET
+    @Path("find/{subject}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response findBySubject(@PathParam("subject") String subject) {
+        Hashtag hashtag = hashtagService.findBySubject(subject);
+        if (hashtag != null) {
+            return Response.ok(hashtag.toJson()).header("Access-Control-Allow-Origin", "*").build();
+        }
+        return Response.status(Response.Status.NOT_FOUND).header("Access-Control-Allow-Origin", "*").build();
+    }
+
 }

@@ -4,25 +4,28 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 import org.eclipse.persistence.annotations.CascadeOnDelete;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import javax.json.Json;
 import javax.json.JsonObject;
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import javax.xml.bind.annotation.XmlRootElement;
 
 
 @Entity
-@XmlRootElement
-@NamedQueries({
-        @NamedQuery(name = "hashtag.findByText", query = "SELECT h FROM Hashtag h WHERE h.text LIKE :text")
-})
+@NamedQueries(
+        @NamedQuery(name = "Hashtag.findBySubject", query = "SELECT hashtag FROM Hashtag hashtag WHERE hashtag.text = :subject")
+)
 public class Hashtag implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotNull
+    @Column(unique = true)
     private String text;
 
     @OneToMany(cascade = CascadeType.ALL)
@@ -30,18 +33,22 @@ public class Hashtag implements Serializable{
     @JsonManagedReference
     private List<Kweet> kweets;
 
-    public Hashtag(String textt) {
+    public Hashtag(String text) {
+
         this.text = text;
+        this.kweets = new ArrayList<Kweet>();
     }
 
     public Hashtag() {
     }
 
-//    public JsonObject toJson() {
-//        return Json.createObjectBuilder()
-//                .add("Text", this.text)
-//                .build();
-//    }
+    public JsonObject toJson() {
+        return Json.createObjectBuilder()
+                .add("id", this.id)
+                .add("subject", this.text)
+                .add("popularity", this.kweets.size())
+                .build();
+    }
 
     public Long getId() {
         return id;

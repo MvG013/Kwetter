@@ -55,7 +55,17 @@ public class AccountDaoColl implements AccountDao {
     }
 
     @Override
+    public Long countAll() {
+        return null;
+    }
+
+    @Override
     public Account findByUsername(String username) {
+        return null;
+    }
+
+    @Override
+    public Account findByCredentials(String username, String password) {
         return null;
     }
 }

@@ -13,7 +13,6 @@ public class GenericDaoJPAImpl<T> implements GenericDao<T> {
 
     @PersistenceContext
     protected EntityManager entityManager;
-
     private Class<T> type;
 
     public GenericDaoJPAImpl() {
@@ -45,6 +44,10 @@ public class GenericDaoJPAImpl<T> implements GenericDao<T> {
 
     public List<T> findAll() {
         return entityManager.createQuery("SELECT t FROM " + type.getSimpleName() + " t", type).getResultList();
+    }
+
+    public Long countAll() {
+        return (Long) entityManager.createQuery("SELECT COUNT(entity) FROM " + this.type.getSimpleName() + " entity").getSingleResult();
     }
 
     public EntityManager getEntityManager() {

@@ -1,23 +1,22 @@
 package domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import util.Hashing;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 
 
 @Entity
-@XmlRootElement
 @NamedQueries({
-        @NamedQuery(name = "account.findByUsername", query = "SELECT a FROM Account a WHERE a.username = :username")
+        @NamedQuery(name = "Account.findByUsername", query = "SELECT account FROM Account account WHERE account.username= :username"),
+        @NamedQuery(name = "Account.findByCredentials", query = "SELECT account FROM Account account WHERE account.username= :username AND account.password = :password")
 })
 public class Account implements Serializable{
 
@@ -30,16 +29,13 @@ public class Account implements Serializable{
     @Size(min = 4, max = 10)
     private String username;
 
-    @NotNull
+    @JsonIgnore
     private String password;
 
-    @NotNull
     @Column(unique = true)
     @Email
     private String email;
 
-    @NotNull
-    @JoinColumn(unique = true)
     @OneToOne(cascade = CascadeType.ALL)
     private Profile profile;
 
@@ -117,24 +113,12 @@ public class Account implements Serializable{
         this.profile = profile;
     }
 
-    public Collection<UserGroup> getGroup() {
+    public List<UserGroup> getUserGroups() {
         return userGroups;
     }
 
-    public void setGroup(List<UserGroup> userGroup) {
-        this.userGroups = userGroup;
-    }
-
-    public void addGroup(UserGroup userGroup){
-        this.userGroups.add(userGroup);
-    }
-
-    public void removeGroup(UserGroup userGroup){
-        this.userGroups.remove(userGroup);
-    }
-
-    public void clearrole() {
-        this.userGroups.clear();
+    public void setUserGroups(List<UserGroup> userGroups) {
+        this.userGroups = userGroups;
     }
 
     @Override

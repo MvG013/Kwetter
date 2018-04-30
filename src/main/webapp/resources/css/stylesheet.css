@@ -1,14 +1,17 @@
-/** GENERIC **/
 
 body
 {
     height: 100%;
     font-family: 'Ubuntu', sans-serif;
     color: #444;
-    background: linear-gradient(to top right, #E61E78, #2D7EDC);
+    background-color: white;
 }
 
-/** CARDS **/
+.login-background
+{
+    background: linear-gradient(to top right, #ef302b, #dc0414);
+}
+
 
 .card
 {
@@ -17,11 +20,6 @@ body
     border-radius: 0px;
     box-shadow: 0px 5px 5px 3px rgba(0,0,0,0.25);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.card:hover
-{
-    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
 }
 
 a:hover
@@ -42,7 +40,6 @@ a:hover
     color: black;
 }
 
-/** CUSTOM INPUT **/
 
 input
 {
@@ -75,19 +72,29 @@ input
 
 .btn-primary
 {
-    background: #0099cc;
+    background: #CC0000 !important;
     color: #ffffff;
+    border-color: #CC0000 !important;
+}
+
+h1{
+    color: #CC0000 !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary
 {
-    background: #33a6cc;
+    background: #CC0000 !important;
 }
 
 .btn-primary:active, .btn-primary.active
 {
-    background: #007299;
+    background: #b1221c;
     box-shadow: none;
+}
+
+.a
+{
+
 }
 
 /** LOGIN **/
@@ -97,12 +104,21 @@ input
     margin-top: 16px;
 }
 
-/** UTILS **/
+.card-title
+{
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 28px;
+}
+
+.logout-btn {
+    float:right;
+}
 
 .vertical-center
 {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
+    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     align-items: center;
 }

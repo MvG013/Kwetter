@@ -6,43 +6,96 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b1ab2a-adf2-4fd9-bc71-98ce8e6e7cdc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Kwetter_ear_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Kwetter_ejb_exploded2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/JBoss_Weld_2_0_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_4_0_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_popper_js_1_12_9_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/META-INF/application.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/GroupDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/GroupDaoJPA.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain/UserGroup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/UserGroupService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/Hashing.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/web/LoginBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/web/ProfileBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/web/SessionBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/glassfish-web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/profile.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/stylesheet.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templates/header.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/templates/template.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/HashServiceTest.java" />
+    <list default="true" id="c6b1ab2a-adf2-4fd9-bc71-98ce8e6e7cdc" name="Default" comment="all changes for angular front-end / starting jwt">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_omnifaces_omnifaces_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/AccountOverviewBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/MessageHelper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/RegistrationBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/SessionBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/UserDetailsBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/AccountOverviewBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/MessageHelper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/RegistrationBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/SessionBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/UserDetailsBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/web/AccountOverviewBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/web/MessageHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/web/RegistrationBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/web/UserDetailsBean.java" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/Kwetter_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Kwetter_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Kwetter.iml" afterPath="$PROJECT_DIR$/Kwetter.iml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/META-INF/persistence.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/HashtagResponse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/HashtagResponse.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/HashtagResponse.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/KweetResponse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/KweetResponse$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/KweetResponse.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/KweetResponse.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/ProfileResponse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/ProfileResponse.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/boundary/rest/ProfileResponse.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/AccountDao.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/AccountDao.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/GenericDao.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/GenericDao.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/GenericDaoJPAImpl.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/GenericDaoJPAImpl.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/HashtagDao.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/HashtagDao.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/KweetDao.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/KweetDao.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/AccountDaoColl.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/AccountDaoColl.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/HashtagDaoColl.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/HashtagDaoColl.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/HeartDaoColl.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/HeartDaoColl.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/KweetDaoColl.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/KweetDaoColl.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/ProfileDaoColl.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/collection/ProfileDaoColl.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/jpa/AccountDaoJPA.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/jpa/AccountDaoJPA.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/jpa/HashtagDaoJPA.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/jpa/HashtagDaoJPA.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/jpa/KweetDaoJPA.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/dao/jpa/KweetDaoJPA.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Account.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Account.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Hashtag.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Hashtag.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Heart.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Heart.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Kweet.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Kweet.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Profile.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/domain/Profile.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/HashtagService.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/HashtagService.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/KweetService.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/KweetService.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/ProfileService.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/ProfileService.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/StartUp.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/StartUp.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/UserGroupService.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/service/UserGroupService.class" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/LoginBean.class" afterPath="$PROJECT_DIR$/classes/artifacts/Kwetter_ejb_exploded2/web/LoginBean.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/HashtagResponse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/HashtagResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/HashtagResponse.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/KweetResponse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/KweetResponse$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/KweetResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/KweetResponse.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/ProfileResponse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/ProfileResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/boundary/rest/ProfileResponse.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/AccountDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/AccountDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/GenericDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/GenericDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/GenericDaoJPAImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/GenericDaoJPAImpl.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/HashtagDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/HashtagDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/KweetDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/KweetDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/AccountDaoColl.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/AccountDaoColl.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/HashtagDaoColl.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/HashtagDaoColl.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/HeartDaoColl.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/HeartDaoColl.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/KweetDaoColl.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/KweetDaoColl.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/ProfileDaoColl.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/collection/ProfileDaoColl.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/jpa/AccountDaoJPA.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/jpa/AccountDaoJPA.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/jpa/HashtagDaoJPA.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/jpa/HashtagDaoJPA.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/jpa/KweetDaoJPA.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/dao/jpa/KweetDaoJPA.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Account.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Account.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Hashtag.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Hashtag.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Heart.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Heart.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Kweet.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Kweet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Profile.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/domain/Profile.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/HashtagService.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/HashtagService.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/KweetService.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/KweetService.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/ProfileService.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/ProfileService.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/StartUp.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/StartUp.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/UserGroupService.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/service/UserGroupService.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/LoginBean.class" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_ejb_exploded/web/LoginBean.class" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/boundary/rest/AccountResponse.java" afterPath="$PROJECT_DIR$/src/main/java/boundary/rest/AccountResponse.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/boundary/rest/HashtagResponse.java" afterPath="$PROJECT_DIR$/src/main/java/boundary/rest/HashtagResponse.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/boundary/rest/KweetResponse.java" afterPath="$PROJECT_DIR$/src/main/java/boundary/rest/KweetResponse.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/boundary/rest/ProfileResponse.java" afterPath="$PROJECT_DIR$/src/main/java/boundary/rest/ProfileResponse.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/AccountDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/AccountDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/GenericDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/GenericDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/GenericDaoJPAImpl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/GenericDaoJPAImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/HashtagDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/HashtagDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/HeartDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/HeartDao.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/KweetDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/KweetDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProfileDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/ProfileDao.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/collection/AccountDaoColl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/collection/AccountDaoColl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/collection/HashtagDaoColl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/collection/HashtagDaoColl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/collection/HeartDaoColl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/collection/HeartDaoColl.java" />
@@ -50,31 +103,36 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/collection/ProfileDaoColl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/collection/ProfileDaoColl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/AccountDaoJPA.java" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/AccountDaoJPA.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/HashtagDaoJPA.java" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/HashtagDaoJPA.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/HeartDaoJPA.java" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/HeartDaoJPA.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/KweetDaoJPA.java" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/KweetDaoJPA.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/ProfileDaoJPA.java" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/ProfileDaoJPA.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/domain/Account.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Account.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/domain/Hashtag.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Hashtag.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/domain/Heart.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Heart.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/domain/Kweet.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Kweet.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/domain/Profile.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Profile.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Role.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/AccountService.java" afterPath="$PROJECT_DIR$/src/main/java/service/AccountService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/HashtagService.java" afterPath="$PROJECT_DIR$/src/main/java/service/HashtagService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/HeartService.java" afterPath="$PROJECT_DIR$/src/main/java/service/HeartService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/KweetService.java" afterPath="$PROJECT_DIR$/src/main/java/service/KweetService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProfileService.java" afterPath="$PROJECT_DIR$/src/main/java/service/ProfileService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/StartUp.java" afterPath="$PROJECT_DIR$/src/main/java/service/StartUp.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dao/collection/AccountDaoCollTest.java" afterPath="$PROJECT_DIR$/src/test/java/dao/collection/AccountDaoCollTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dao/jpa/AccountDaoJPATest.java" afterPath="$PROJECT_DIR$/src/test/java/dao/jpa/AccountDaoJPATest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/AccountTest.java" afterPath="$PROJECT_DIR$/src/test/java/domain/AccountTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rest/AccountRestTest.java" afterPath="$PROJECT_DIR$/src/test/java/rest/AccountRestTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserGroupService.java" afterPath="$PROJECT_DIR$/src/main/java/service/UserGroupService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/LoginBean.java" afterPath="$PROJECT_DIR$/src/main/java/web/LoginBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/SessionBean.java" afterPath="$PROJECT_DIR$/src/main/java/web/SessionBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/stylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/stylesheet.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/header.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/templates/header.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/template.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/templates/template.xhtml" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter.war" afterPath="$PROJECT_DIR$/target/Kwetter.war" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/AccountResponse.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/AccountResponse.class" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/HashtagResponse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/HashtagResponse.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/HashtagResponse.class" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/KweetResponse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/KweetResponse$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/KweetResponse.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/KweetResponse.class" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/ProfileResponse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/ProfileResponse.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/boundary/rest/ProfileResponse.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/AccountDao.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/AccountDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/GenericDao.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/GenericDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/GenericDaoJPAImpl.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/GenericDaoJPAImpl.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/HashtagDao.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/HashtagDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/HeartDao.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/HeartDao.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/KweetDao.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/KweetDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/ProfileDao.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/ProfileDao.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/collection/AccountDaoColl.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/collection/AccountDaoColl.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/collection/HashtagDaoColl.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/collection/HashtagDaoColl.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/collection/HeartDaoColl.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/collection/HeartDaoColl.class" />
@@ -82,29 +140,38 @@
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/collection/ProfileDaoColl.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/collection/ProfileDaoColl.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/jpa/AccountDaoJPA.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/jpa/AccountDaoJPA.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/jpa/HashtagDaoJPA.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/jpa/HashtagDaoJPA.class" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/jpa/HeartDaoJPA.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/jpa/HeartDaoJPA.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/jpa/KweetDaoJPA.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/jpa/KweetDaoJPA.class" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/jpa/ProfileDaoJPA.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/dao/jpa/ProfileDaoJPA.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Account.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Account.class" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Account_.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Account_.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Hashtag.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Hashtag.class" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Hashtag_.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Hashtag_.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Heart.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Heart.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Heart_.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Heart_.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Kweet.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Kweet.class" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Kweet_.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Kweet_.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Profile.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Profile.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Profile_.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Profile_.class" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/domain/Role.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/AccountService.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/AccountService.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/HashtagService.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/HashtagService.class" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/HeartService.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/HeartService.class" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/KweetService.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/KweetService.class" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/ProfileService.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/ProfileService.class" />
       <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/StartUp.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/StartUp.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/AccountResponse.class" afterPath="$PROJECT_DIR$/target/classes/boundary/rest/AccountResponse.class" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/UserGroupService.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/service/UserGroupService.class" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/web/LoginBean.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/web/LoginBean.class" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/web/SessionBean.class" afterPath="$PROJECT_DIR$/target/Kwetter/WEB-INF/classes/web/SessionBean.class" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/login.xhtml" afterPath="$PROJECT_DIR$/target/Kwetter/login.xhtml" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/resources/css/stylesheet.css" afterPath="$PROJECT_DIR$/target/Kwetter/resources/css/stylesheet.css" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/templates/header.xhtml" afterPath="$PROJECT_DIR$/target/Kwetter/templates/header.xhtml" />
+      <change beforePath="$PROJECT_DIR$/target/Kwetter/templates/template.xhtml" afterPath="$PROJECT_DIR$/target/Kwetter/templates/template.xhtml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/HashtagResponse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/HashtagResponse.class" afterPath="$PROJECT_DIR$/target/classes/boundary/rest/HashtagResponse.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/KweetResponse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/KweetResponse$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/KweetResponse.class" afterPath="$PROJECT_DIR$/target/classes/boundary/rest/KweetResponse.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/ProfileResponse$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/boundary/rest/ProfileResponse.class" afterPath="$PROJECT_DIR$/target/classes/boundary/rest/ProfileResponse.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/AccountDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/AccountDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/GenericDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/GenericDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/GenericDaoJPAImpl.class" afterPath="$PROJECT_DIR$/target/classes/dao/GenericDaoJPAImpl.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/HashtagDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/HashtagDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/HeartDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/HeartDao.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/KweetDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/KweetDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/ProfileDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/ProfileDao.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/collection/AccountDaoColl.class" afterPath="$PROJECT_DIR$/target/classes/dao/collection/AccountDaoColl.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/collection/HashtagDaoColl.class" afterPath="$PROJECT_DIR$/target/classes/dao/collection/HashtagDaoColl.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/collection/HeartDaoColl.class" afterPath="$PROJECT_DIR$/target/classes/dao/collection/HeartDaoColl.class" />
@@ -112,33 +179,28 @@
       <change beforePath="$PROJECT_DIR$/target/classes/dao/collection/ProfileDaoColl.class" afterPath="$PROJECT_DIR$/target/classes/dao/collection/ProfileDaoColl.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/AccountDaoJPA.class" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/AccountDaoJPA.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/HashtagDaoJPA.class" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/HashtagDaoJPA.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/HeartDaoJPA.class" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/HeartDaoJPA.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/KweetDaoJPA.class" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/KweetDaoJPA.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/ProfileDaoJPA.class" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/ProfileDaoJPA.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/domain/Account.class" afterPath="$PROJECT_DIR$/target/classes/domain/Account.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/Account_.class" afterPath="$PROJECT_DIR$/target/classes/domain/Account_.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/domain/Hashtag.class" afterPath="$PROJECT_DIR$/target/classes/domain/Hashtag.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/Hashtag_.class" afterPath="$PROJECT_DIR$/target/classes/domain/Hashtag_.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/domain/Heart.class" afterPath="$PROJECT_DIR$/target/classes/domain/Heart.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/domain/Heart_.class" afterPath="$PROJECT_DIR$/target/classes/domain/Heart_.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/domain/Kweet.class" afterPath="$PROJECT_DIR$/target/classes/domain/Kweet.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Kweet_.class" afterPath="$PROJECT_DIR$/target/classes/domain/Kweet_.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/domain/Profile.class" afterPath="$PROJECT_DIR$/target/classes/domain/Profile.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/domain/Profile_.class" afterPath="$PROJECT_DIR$/target/classes/domain/Profile_.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/Role.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/AccountService.class" afterPath="$PROJECT_DIR$/target/classes/service/AccountService.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/service/HashtagService.class" afterPath="$PROJECT_DIR$/target/classes/service/HashtagService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/HeartService.class" afterPath="$PROJECT_DIR$/target/classes/service/HeartService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/KweetService.class" afterPath="$PROJECT_DIR$/target/classes/service/KweetService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/ProfileService.class" afterPath="$PROJECT_DIR$/target/classes/service/ProfileService.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/service/StartUp.class" afterPath="$PROJECT_DIR$/target/classes/service/StartUp.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/UserGroupService.class" afterPath="$PROJECT_DIR$/target/classes/service/UserGroupService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/LoginBean.class" afterPath="$PROJECT_DIR$/target/classes/web/LoginBean.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/SessionBean.class" afterPath="$PROJECT_DIR$/target/classes/web/SessionBean.class" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/domain/Account_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/domain/Account_.java" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/domain/Hashtag_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/domain/Hashtag_.java" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/domain/Heart_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/domain/Heart_.java" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/domain/Kweet_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/domain/Kweet_.java" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/domain/Profile_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/domain/Profile_.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/persistence.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/collection/AccountDaoCollTest.class" afterPath="$PROJECT_DIR$/target/test-classes/dao/collection/AccountDaoCollTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/jpa/AccountDaoJPATest.class" afterPath="$PROJECT_DIR$/target/test-classes/dao/jpa/AccountDaoJPATest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/AccountTest.class" afterPath="$PROJECT_DIR$/target/test-classes/domain/AccountTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/rest/AccountRestTest.class" afterPath="$PROJECT_DIR$/target/test-classes/rest/AccountRestTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/domain/UserGroup_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/domain/UserGroup_.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -151,41 +213,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfileResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/ProfileResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashtagResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/HashtagResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <file leaf-file-name="profile.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/profile.xhtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -194,65 +226,88 @@
       <file leaf-file-name="login.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="1275">
+              <caret line="75" column="46" lean-forward="false" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/profile.xhtml">
+      <file leaf-file-name="template.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/template.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="663">
+              <caret line="39" column="61" lean-forward="false" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/web/LoginBean.java">
+      <file leaf-file-name="header.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/header.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-              <folding>
-                <element signature="e#1576#1577#0" expanded="true" />
-                <element signature="e#1613#1614#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hashing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/Hashing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/web/SessionBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfileBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/web/ProfileBean.java">
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/ApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/AccountResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashtagResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/HashtagResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/regular/dashboard.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginBean.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/web/LoginBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -271,6 +326,10 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>meta</find>
+      <find>header</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -291,56 +350,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/dao/HashtagDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/jpa/HashtagDaoJPA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/jpa/HeartDaoJPA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/HeartDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/jpa/KweetDaoJPA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/KweetDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/jpa/ProfileDaoJPA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/HashtagService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/HeartService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/collection/KweetDaoColl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/collection/HeartDaoColl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dao/collection/AccountDaoCollTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dao/jpa/AccountDaoJPATest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/domain/AccountTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Hashtag.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/profile.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/web/ProfileBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/EncryptionService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/AccountServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/HashServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/HashingService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/stylesheet.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/templates/login/template.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/util/HashingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/jpa/GroupDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/GroupDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/jpa/GroupDaoJPA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Group.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Hashing.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/GroupService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/UserGroupService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/jpa/AccountDaoJPA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/AccountDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/glassfish-web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/collection/AccountDaoColl.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/UserGroup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/StartUp.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/profile.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/templates/template.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/templates/header.xhtml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/profile.xhtml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/templates/header.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/service/UserGroupService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/MessageHeper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/MessageHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/AccountOverviewBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/accounts.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/HashtagDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/boundary/rest/HashtagResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/HashtagService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/boundary/rest/KweetResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/boundary/rest/ProfileResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/GenericDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/GenericDaoJPAImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/jpa/HashtagDaoJPA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/jpa/AccountDaoJPA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/jpa/ProfileDaoJPA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/AccountDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Hashtag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Heart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/collection/ProfileDaoColl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/collection/AccountDaoColl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/collection/HashtagDaoColl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/collection/HeartDaoColl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/KweetDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/jpa/KweetDaoJPA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/collection/KweetDaoColl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ProfileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Profile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Kweet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/details.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/web/UserDetailsBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/service/StartUp.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/SessionBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/dashboard.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/regular/dashboard.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/templates/template.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/service/KweetService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/RegistrationBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/LoginBean.java" />
       </list>
     </option>
@@ -371,10 +430,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -410,6 +468,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -464,6 +525,22 @@
               <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -481,14 +558,70 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="regular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,7 +629,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../martijn/S-JEA6a-Kwetter-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KwetterAngular/Angular-Kwetter" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -507,10 +640,10 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="kwetter" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="dao.jpa" />
-      <recent name="service" />
-      <recent name="domain" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Fontys\JEA\Kwetter\src\main\webapp" />
+      <recent name="E:\Fontys\JEA\Kwetter\src\main\webapp\templates" />
+      <recent name="E:\Fontys\JEA\Kwetter\src\main\webapp\pages" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="dao" />
@@ -518,17 +651,21 @@
       <recent name="dao.jpa" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Fontys\JEA\Kwetter\src\main\webapp" />
+      <recent name="E:\Fontys\JEA\Kwetter\src\main\webapp\resources\js" />
+      <recent name="E:\Fontys\JEA\Kwetter\src\main\webapp\pages\admin" />
+      <recent name="E:\Fontys\JEA\Kwetter\src\main\webapp\pages" />
       <recent name="E:\Fontys\JEA\Kwetter\.idea\artifacts" />
-      <recent name="E:\Fontys\JEA\Kwetter\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="web" />
       <recent name="service" />
       <recent name="dao.jpa" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Fontys\JEA\Kwetter\src\main\webapp" />
-      <recent name="E:\Fontys\JEA\Kwetter\src\main\webapp\templates" />
-      <recent name="E:\Fontys\JEA\Kwetter\src\main\webapp\pages" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dao.jpa" />
+      <recent name="service" />
+      <recent name="domain" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1027,7 +1164,24 @@
       <workItem from="1523536518318" duration="3428000" />
       <workItem from="1523867884311" duration="154000" />
       <workItem from="1523964090717" duration="272000" />
-      <workItem from="1523965531145" duration="1190000" />
+      <workItem from="1523965531145" duration="3084000" />
+      <workItem from="1524056721762" duration="1055000" />
+      <workItem from="1524058041248" duration="5214000" />
+      <workItem from="1524141494536" duration="1321000" />
+      <workItem from="1524144310016" duration="988000" />
+      <workItem from="1524419708478" duration="441000" />
+      <workItem from="1524421818242" duration="9154000" />
+      <workItem from="1524472706061" duration="10192000" />
+      <workItem from="1524492710383" duration="1136000" />
+      <workItem from="1524494179156" duration="5280000" />
+      <workItem from="1524513682143" duration="1516000" />
+      <workItem from="1524515731890" duration="6269000" />
+      <workItem from="1524523711361" duration="315000" />
+      <workItem from="1524524046807" duration="235000" />
+      <workItem from="1524524431674" duration="265000" />
+      <workItem from="1524561230735" duration="2570000" />
+      <workItem from="1524642305966" duration="1866000" />
+      <workItem from="1525087651143" duration="150000" />
     </task>
     <servers />
   </component>
@@ -1064,7 +1218,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133630000" />
+    <option name="totallyTimeSpent" value="183491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1078,19 +1232,19 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.46302083" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32661718" sideWeight="0.42708334" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3244963" sideWeight="0.42708334" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.425" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32661718" sideWeight="0.425" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1154,370 +1308,122 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all changes for angular front-end / starting jwt" />
+    <option name="LAST_COMMIT_MESSAGE" value="all changes for angular front-end / starting jwt" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="22" />
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/collection/AccountDaoColl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="553">
+          <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/collection/HashtagDaoColl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="553">
+          <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunBefores.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/collection/HeartDaoColl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="553">
+          <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunAfters.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/KweetDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="369" column="0" lean-forward="false" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/domain/AccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/DatabaseCleaner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/HashServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/KweetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/ProfileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.45/mysql-connector-java-5.1.45.jar!/com/mysql/jdbc/PreparedStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="1031" column="13" lean-forward="false" selection-start-line="1031" selection-start-column="13" selection-end-line="1032" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/HashtagService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/HeartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GenericDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/jpa/HeartDaoJPA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/jpa/HashtagDaoJPA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/jpa/KweetDaoJPA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        <state relative-caret-position="612">
+          <caret line="43" column="62" lean-forward="false" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/jpa/GroupDaoJPA.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/collection/KweetDaoColl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GroupDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserGroupService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Heart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Kweet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/domain/Group_.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/jpa/AccountDaoJPA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="935">
+          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/AccountDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Hashtag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="19" column="116" lean-forward="false" selection-start-line="19" selection-start-column="116" selection-end-line="19" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/collection/AccountDaoColl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/UserGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/StartUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/header.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/template.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/glassfish-web.xml">
-      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Hashing.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GenericDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/SessionBean.java">
+    <entry file="jar://$PROJECT_DIR$/lib/weld-core-sources.jar!/org/jboss/weld/util/reflection/Reflections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="425">
+          <caret line="410" column="0" lean-forward="false" selection-start-line="410" selection-start-column="0" selection-end-line="410" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/details.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="69" lean-forward="false" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GenericDaoJPAImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/ProfileBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/jpa/AccountDaoJPA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/profile.xhtml">
+    <entry file="jar://$PROJECT_DIR$/lib/weld-core-sources.jar!/org/jboss/weld/bean/proxy/ProxyMethodHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="1241">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/LoginBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding>
-            <element signature="e#1576#1577#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2584">
+          <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/ProfileResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/HashtagResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1525,7 +1431,271 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/dashboard.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="71" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Hashtag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/HeartResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/StartUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="114" column="14" lean-forward="false" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserGroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Heart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Kweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/HashtagService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/HeartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/KweetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/ProfileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/accounts.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="42" lean-forward="true" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/ProfileBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/SessionBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/RegistrationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/UserDetailsBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="36" column="67" lean-forward="false" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/MessageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/AccountOverviewBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/KweetResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/PingResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/ProfileResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/profile.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="46" lean-forward="false" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/template.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="61" lean-forward="false" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/header.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/AccountResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/boundary/rest/HashtagResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/regular/dashboard.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/LoginBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
